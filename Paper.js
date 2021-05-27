@@ -9,7 +9,7 @@ class Paper{
         }
        this.x=x;
        this.y=y;
-        this.body=Bodies.circle(this.x,this.y,40,options);
+        this.body=Bodies.circle(this.x,this.y,20,options);
 
         World.add(world,this.body);
     }
@@ -22,7 +22,7 @@ class Paper{
       
       fill(255);
       ellipseMode(RADIUS);
-      ellipse(0,0,40);
+      ellipse(0,0,20);
      
       
       pop();
